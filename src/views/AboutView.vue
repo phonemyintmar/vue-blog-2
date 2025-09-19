@@ -8,11 +8,12 @@
           About us.
         </h2>
         <p class="mb-4 font-light leading-9">
-          Welcome to the blogging village ninja!!!
-          <br>
-          This is a blogging site intended to share knowledge as I step through my journey :)
-          <br>
-          Not completed all features, but I'm updating on my free times
+          Welcome to the blogging village friends!!!
+          <br />
+          This is a blogging site intended to share knowledge as I step through
+          my journey :)
+          <br />
+          Not completed all features, but I'm updating on my free times.
         </p>
 
         <!-- <a
@@ -39,8 +40,7 @@
 </template>
 
 <script>
-export default {};
+  export default {};
 </script>
 
-<style>
-</style>
+<style></style>

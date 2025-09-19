@@ -25,13 +25,16 @@ URL: https://flowbite.com/docs/components/typography/
           learning တို့၊ data science တို့ကို လေ့လာချင်တာပဲဖြစ်ဖြစ် web
           development ဖက်ကနေ backendရေးချင်တာပဲဖြစ်ဖြစ်၊ Python က လေ့လာသင့်တဲ့
           languageတစ်ခုပါ။ အဲ့တော့.. Pythonကို ဘယ်လိုလေ့လာကြမလဲ?
-          <div class="flex justify-center my-3 w-full h-96 rounded-lg">
-            <img class="w-full h-full rounded-lg"
-            src="https://cdn.wallpapersafari.com/86/47/beOFkU.jpg"
-            alt=""
-          />
+          <div
+            class="flex justify-center items-center my-3 w-full h-96 rounded-lg pt-5"
+          >
+            <img
+              class="max-w-full max-h-full rounded-lg object-contain"
+              src="https://cdn.wallpapersafari.com/86/47/beOFkU.jpg"
+              alt=""
+            />
           </div>
-          
+
           <br />
           <h2>Basic ကစလေ့လာပါ။</h2>
           Pythonမှာဆိုရင် Djangoတို့ Flaskတို့လို frameworkတွေရှိပါတယ်။
@@ -101,7 +104,7 @@ URL: https://flowbite.com/docs/components/typography/
           usageတွေလည်းများပါတယ်။ Tech industry မှာလည်း Python specialist
           တွေအတွက် demandတွေများပါတယ်။ အားလုံး Python လေ့လာကြရင်းနဲ့
           Pythonဆရာကြီးတွေဖြစ်ကြပါစေဗျာ။ ။
-           <!-- နောက်ဆိုလည်း coding, programming
+          <!-- နောက်ဆိုလည်း coding, programming
           နဲ့ပတ်သက်တဲ့knowledgeတွေ share သွားမှာမို့လို့ Page ကို Like and
           Follow တွေလုပ်ထားပါဦး။ -->
         </div>
@@ -538,10 +541,10 @@ URL: https://flowbite.com/docs/components/typography/
             </div>
           </article> -->
         </section>
-      </article> 
+      </article>
     </div>
   </main>
-  <hr class="   ">
+  <hr class="   " />
 
   <!-- <aside
     aria-label="Related articles"
@@ -758,8 +761,8 @@ URL: https://flowbite.com/docs/components/typography/
           PM Tech Blog
         </a>
         <span class="block text-sm text-center text-gray-500 dark:text-gray-400"
-          >© 2025 <a href="#" class="hover:underline">PM Tech™</a>. All
-          Rights Reserved.
+          >© 2025 <a href="#" class="hover:underline">PM Tech™</a>. All Rights
+          Reserved.
         </span>
         <ul class="flex justify-center mt-5 space-x-5">
           <li>
@@ -862,18 +865,17 @@ URL: https://flowbite.com/docs/components/typography/
 </template>
 
 <script>
-import ProfileAboveBlog from "@/components/ProfileAboveBlog.vue";
+  import ProfileAboveBlog from "@/components/ProfileAboveBlog.vue";
 
-export default {
-  name: "ProfileAboveBlog",
-  components: [ProfileAboveBlog],
-  data() {
-    return {};
-  },
-  methods: {},
-  mounted() {},
-};
+  export default {
+    name: "ProfileAboveBlog",
+    components: [ProfileAboveBlog],
+    data() {
+      return {};
+    },
+    methods: {},
+    mounted() {},
+  };
 </script>
 
-<style>
-</style>
+<style></style>
